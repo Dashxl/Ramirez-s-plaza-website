@@ -31,3 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
     showSlide(currentIndex);
     setTimeout(autoSlide, 3000); // Inicia el auto deslizamiento después de 3 segundos
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        navLinks.classList.toggle('active');
+    });
+});
