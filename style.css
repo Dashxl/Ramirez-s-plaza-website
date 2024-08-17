@@ -303,3 +303,12 @@ footer {
     width: 100%; /* El iframe ocupa el 100% del contenedor */
     height: 100%; /* El iframe ocupa el 100% del contenedor */
 }
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
